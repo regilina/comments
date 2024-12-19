@@ -1,0 +1,14 @@
+<svg width="15.000000" height="15.000000" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_12_4580" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image12_458_0" transform="matrix(0.010417,0,0,0.010417,0,0)"/>
+		</pattern>
+		<image id="image12_458_0" width="96.000000" height="96.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABHNCSVQICAgIfAhkiAAABAxJREFUeJzt3F2MXGMYB/DflN1SlhBKQkKrFw2CkCBCE9xIRFLVENKK4I6EGxWRSOPGRROx4YaIjwQVbkVJibhQggvfpL0Q0fr+WFSr2bXj4phktp3dnZl933PmzD6/5En2as7z/s/unDnPeWcJIYQQQgghhBBCCCGEEEIIIYQwrA6ruoGaaWA9bsUqfIqpSjtaRA7Hi2i21VdYWWVTi0UDT5oZfqt+wAXVtbY4PKRz+K36C1dV1t2Qu8Pc4bfqAG6qqMehdSP+1d0JaGIam6todBhdiX90H357jWNJ+S0Pj4uwV3/ht+oFjJTd+DBYjZ8tLPxWbSm599o7Fd9IE34TE+Jmt2vH4mPpwm8qriFxArqwDDukDb+JrWUuoq5G8Ir04e/EiSWuo5YaeEr68PdgRYnrqK0t0of/B84rcxF1tUn68PdjTZmLqKsNirFByvCncF2Zi6irqzEpbfjTuL3MRdRVihFDp7qvzEUcrKG46Jz5/8+D6iz8Kn3442Uu4mCn45O2ZnYYzI9fp2G39OFvVeHU8xh83qGpX3BpVU11cAK+lD78N7G0xHXMsMTcd4/7cUNVzbVZhnekD/8DHF3iOg7RzQ1M1U+HRrBN+vB34aQS13GIDR2amqseV2zpKFMDz/TYZze1R3Hdq8z5+FvvjW/DWIl9PtxHj/PVhIpHDCfjW/0v4COcUkKf9y+gx9lqHy4rofdZHYF3LXwhXyvuF3K5WZ4Rw7qMPXflCekW9Bsuz9DjWkVYKcOfVuwDrdRqve2N6aYOYGPCHtcoPvqmfuupdMTQslb6hbV+ux5I0N85igtk6v4eSdBbEiulf19tr6f1v39mBb7L0NPzBmxj1YPynYAmtit2JfRiueK5a+peXsNoj72U4i7prwXt9ZliaNaNMXyYoYf3VTximM86/d2IdVvfm3+v/Shez3DsXYq/qoF3oeJLCblOwl5cM8uxl+ClDMesfMTQqxU6j6JT1RTu7HDc8QzHmsC5C4+kfGN4Vb6T0DRzm/fmDK9f+YhhoUbk2djUXi/j7gyvO2n2t7rayf0JKXVN47YsSVRoveJPuupwu6lNmTKo3MX4UfUBz1WPZVv9gFgpz0PwFDVwI4ZcjsNbqg+8vd4woCOGXEbxrOqDb6rBiCGXBu6Vd5o6X+1UkxFDTtfL88Bkvtqt+wHf0LsEPykv/NqOGHI6Q/EvXnKHv89gbY8cKMfjbfnCn8K1pa2mppbiOenDH4hdDHXRkH7CeU+ZCxgWtyi2qSw0/EdL7nuoXIHf9R/+ohkx5LRKf7sctltkI4acluM9vYV/VCWdDrEjFSPjucYXk4rHlfGbn9HZihPxhWIrzJ+KLwRuUXzjMYQQQgghhBBCCCGEEEIIIYQw8P4Do3Yrj9iZgCQAAAAASUVORK5CYII="/>
+	</defs>
+	<g opacity="0.400000">
+		<rect id="icons8-галочка-96 1" width="15.000000" height="15.000000" fill="url(#pattern_12_4580)" fill-opacity="1.000000"/>
+	</g>
+</svg>

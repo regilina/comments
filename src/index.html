@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Commenting system</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/commenting-system.css" />
+    <link rel="stylesheet" href="./styles/exceptions-commenting-system.css" />
+    <script type="module" defer src="./scripts/commenting-system.js"></script>
+  </head>
+  <body>
+    <header class="header"></header>
+    <aside class="aside"></aside>
+    <main class="main">
+      <section class="content">
+        <div class="content-block-wrap">
+          <div class="content__block_small"></div>
+          <div class="content__block_small"></div>
+          <div class="content__block_small"></div>
+          <div class="content__block_small"></div>
+          <div class="content__block_small"></div>
+          <div class="content__block_small"></div>
+          <div class="content__block_small"></div>
+          <div class="content__block_small"></div>
+        </div>
+        <div class="content__block_big"></div>
+      </section>
+      <section class="comments">
+        <div class="comments-panel">
+          <button class="comments-panel__comments-btn">
+            <span>Комментарии</span>
+            <span class="comments-panel__comments-amount"></span>
+          </button>
+          <div class="comments-panel__wrap">
+            <div class="comments-panel__wrap">
+              <div>
+                <div class="custom-select">
+                  <span class="custom-select__text">По дате</span>
+                </div>
+
+                <div class="custom-select__dropdown">
+                  <div class="custom-select__option" data-value="1">
+                    <img class="custom-select__check_1" src="../img/check.svg" />
+                    <span class="custom-select__option-text">По дате</span>
+                  </div>
+                  <div class="custom-select__option" data-value="2">
+                    <img class="custom-select__check_2" src="../img/check.svg" />
+                    <span class="custom-select__option-text">По количеству оценок</span>
+                  </div>
+                  <div class="custom-select__option" data-value="3">
+                    <img class="custom-select__check_3" src="../img/check.svg" />
+                    <span class="custom-select__option-text">По актуальности</span>
+                  </div>
+                  <div class="custom-select__option" data-value="4">
+                    <img class="custom-select__check_4" src="../img/check.svg" />
+                    <span class="custom-select__option-text">По количеству ответов</span>
+                  </div>
+                </div>
+              </div>
+
+              <button class="comments-panel__sort-btn-icon">
+                <img class="comments-panel__sort-icon" src="../img/arrow-down.svg" />
+              </button>
+            </div>
+            <button class="comments-panel__favorites-btn">
+              <span class="comments-panel__favorites-text">Избранное</span>
+              <img class="comments-panel__favorites-icon" src="../img/heart.svg" />
+            </button>
+          </div>
+        </div>
+
+        <form class="form comments__form">
+          <img class="avatar form__avatar" src="https://picsum.photos/61" alt="Аватарка юзера" />
+          <div class="form__wrap">
+            <div class="form__wrap_mobile">
+              <img class="avatar form__avatar_mobile" src="https://picsum.photos/50" alt="Аватарка юзера" />
+              <div class="form__info">
+                <span class="user form__user">Random user</span>
+                <span class="form__char-counter">Макс. 1000 символов</span>
+              </div>
+            </div>
+            <textarea class="form__input" type="text" placeholder="Введите текст сообщения..."></textarea>
+          </div>
+          <div class="form__container">
+            <span class="form__error">Слишком длинное сообщение</span>
+            <button class="btn form__btn" type="submit">Отправить</button>
+            <span class="form__error_mobile">Слишком длинное сообщение</span>
+          </div>
+        </form>
+        <ul class="comment-list">
+          <li class="comment-list__item">
+            <ul class="comment-reply-list">
+              <li class="comment-reply-list__item"></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
